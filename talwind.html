@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          },
+          fontFamily:{
+            roboto:["Roboto"," sans-serif"]
+          },
+          backgroundImage: {
+        heroPattern: "url('./img/alamin.png')",
+        
+      }
+    }
+      }
+    }
+  </script>
+</head>
+<body>
+ <nav class="flex justify-between items-center h-20 sm:px-6 md:px-24 lg:px-52 bg-blue-500 font-roboto absolute w-full">
+  <h1 class="text-3xl">Jhaka Naka Producktion</h1>
+  <ul class="flex gap-3">
+    <li>About As</li>
+    <li>Our Movie</li>
+    <li>Videos</li>
+  </ul>
+ </nav>\
+ <main>
+
+  <section class="bg-heroPattern bg-cover h-screen pt-20 flex items-center">
+
+
+    <div class="ml-20">
+      <p class="text-[72px] uppercase font-bold">Lorem dolor studio</p>
+    <h1 class="">Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit explicabo nihil, ipsam placeat amet  libero?</p>
+    <button class="mt-5 text-xl text-white hover:text-black hover:border-yellow hover:bg-yellow-400 border-2 py-2 px-5 transition">
+      Discober More</button>
+    </div>
+
+
+  </section>
+    <!-- about us -->
+    <section class="m-20 border-2">
+      <div class="lg:flex">
+        <div class="bg-[url('./img/alamin.jpg')] lg:w-2/4 m-10 h-[300px] md:h-[500px] flex justify-center items-end "> 
+          <h1 class="bg-yellow-500 p-5 rounded -mb-6">23 Pxle And yearrs </h1>
+        </div>
+        <div class="lg:w-2/4 m-10">
+          <p>About us</p> 
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, perferendis nam. Aut quos iusto unde?</p>
+          <button class="mt-5 text-xl text-green-500 hover:text-black hover:border-yellow hover:bg-yellow-400 border-2 py-2 px-5 transition">
+            Discober More</button>
+        </div>
+      </div>
+    </section>
+    <!-- movies Section -->
+    <section class="bg-gray-500 h-full p-10">
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5 p-5 ">
+        <div class="border-2 border-white h-[300px] md:h-[500px] lg:h-[350px]">
+          <div class="bg-[url('./img/alamin.jpg')] w-full h-full bg-cover bg-center "></div>
+        </div>
+      <div class="h-52 border-2 border-white"></div>
+      <div class="h-52 border-2 border-white"></div>
+      <div class="h-52 border-2 border-white"></div>
+     
+
+    </section>
+ </main>
+</body>
+</html>
